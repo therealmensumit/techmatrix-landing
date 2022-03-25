@@ -98,7 +98,9 @@
                     <h3>India and Singapore</h3>
                 </div>
                 <div class="rt">
-                    <img src="images/girl.png" alt="girl" />
+                    <figure>
+                        <img src="images/girl.png" alt="girl" />
+                    </figure>
                 </div>
             </div>
         </div>
