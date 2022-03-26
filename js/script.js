@@ -1,3 +1,12 @@
+$(document).ready(function() {
+    $('.popup .pop-in .close i').click(function() {
+        $('.popup').fadeOut();
+    });
+    $('#knowMore').click(function() {
+        $('.popup').fadeIn();
+    });
+});
+
 $(".trust-slider").slick({
     dots: false,
     autoplay: true,

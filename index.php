@@ -107,6 +107,104 @@
     </section>
 
 
+    <section class="imp-sec">
+        <div class="container">
+            <div class="main">
+                <div class="lt">
+                    <figure>
+                        <img src="images/implementaiton.png" alt="" />
+                    </figure>
+                </div>
+                <div class="rt">
+                    <div class="head">
+                        <h2>Implementation Industries</h2>
+                    </div>
+                    <ul>
+                        <li>Education</li>
+                        <li>Healthcare</li>
+                        <li>Non-Profit</li>
+                        <li>Recruitment</li>
+                        <li>Retail</li>
+                        <li>Travel</li>
+                        <li>BFSI/Fintech</li>
+                        <li>Insurance</li>
+                        <li>Automobile</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="highlight-sec">
+        <div class="container">
+            <div class="head">
+                <h2>Highlights</h2>
+            </div>
+            <ul>
+                <li class="wow  slideInLeft">
+                    <span class="count">600</span><b>+</b><br>
+                    <p>Projects</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">500</span><b>+</b><br>
+                    <p>Clients</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">400</span><b>+</b><br>
+                    <p>Implementations</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">250</span><b>+</b><br>
+                    <p>Team Members</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">11</span><b>+</b><br>
+                    <p>Years of IT Experience</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="coun">5/5</span><!-- <b>+</b> --><br>
+                    <p>CSAT Scores </p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">10</span><b>+</b><br>
+                    <p>Industries Served</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="abouttech-sec">
+        <div class="container">
+            <div class="main">
+                <div class="lt">
+                    <div class="head">
+                        <h2>About <span>TechMatrix</span></h2>
+                    </div>
+                </div>
+                <div class="rt">
+                    <p>TechMatrix Consulting is one of the largest independent Salesforce Partners, and a leading customer-centric Consulting Firm based in Singapore(HQ), with offices across India and US. We have been providing reliable solutions to our clients since 2010, and in this tenure, we have successfully delivered many projects with a more personal and nimble approach unlike other traditional consulting firms. Our top priority is to help you tackle your biggest challenges and turn your vision into reality.</p>
+                    <div class="know">
+                        <a href="javascript:void()" class="btn" id="knowMore">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="popup">
+        <div class="pop-in">
+            <div class="close">
+                <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+            </div>
+            <h2>About US</h2>
+            <h3>Certified Team of Salesforce Experts</h3>
+            <p>TechMatrix Consulting is one of the largest independent Salesforce Partners, and a leading customer-centric Consulting Firm based in Singapore(HQ), with offices across India and US. We have been providing reliable solutions to our clients since 2010, and in this tenure, we have successfully delivered many projects with a more personal and nimble approach unlike other traditional consulting firms. Our top priority is to help you tackle your biggest challenges and turn your vision into reality. We have worked with more than 500 customers and have included a team of over 250 certified professionals engaged in different projects across continents. With Techmatrix Consulting, it is never just about the project at hand, it’s about building trust and enabling our customer’s long-term benefits. We take utmost care in understanding what you want, involving your people in implementation and support, and share our skills every step of the way to ensure complete success.</p>
+        </div>
+    </div>
+
+
     <section class="casestudy">
         <div class="casestudy-bg">
             <div class="container">
@@ -473,6 +571,12 @@
 
     <!-- footer  -->
     <?php include('include/footer.php') ?>
+    <script>
+        $(".count").counterUp({
+        delay: 10,
+        time: 2000
+        });
+    </script>
 
 </body>
 
