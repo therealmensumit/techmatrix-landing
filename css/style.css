@@ -842,6 +842,25 @@ nav {
     font-size: 36px;
 }
 
+.imp-sec .main .main-container {
+    position: relative;
+}
+
+.imp-sec .main .main-container .swiper-button-prev {
+    left: -50px;
+}
+
+.imp-sec .main .main-container .swiper-button-next {
+    right: -50px;
+}
+
+.imp-sec .main .main-container .swiper-button-prev::after,
+.imp-sec .main .main-container .swiper-button-next::after {
+    font-size: 30px;
+    font-weight: 900;
+    color: #dedede;
+}
+
 .imp-sec .main .imp-s-c {
     margin-top: 20px;
 }
