@@ -830,6 +830,7 @@ nav {
 
 .imp-sec {
     padding: 50px 0;
+    position: relative;
     background-color: #f7f7f7;
 }
 
@@ -847,11 +848,58 @@ nav {
 
 .imp-sec .main ul.imp-s {
     display: flex;
+    height: 226px;
 }
 
 .imp-sec .main ul.imp-s li {
-    margin: 1%;
+    /* margin: 1%; */
     width: 20%;
+    position: relative;
+}
+
+.imp-sec .main ul.imp-s li figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.imp-sec .main ul.imp-s li figure::before {
+    position: absolute;
+    content: '';
+    top: 3%;
+    left: 3%;
+    bottom: 3%;
+    right: 3%;
+    border: 1px solid #fff;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.imp-sec .main ul.imp-s li figure:hover::before {
+    opacity: 1;
+}
+
+.imp-sec .main ul.imp-s li figure img {
+    transition: 0.3s;
+}
+
+.imp-sec .main ul.imp-s li figure:hover img {
+    transform: scale(1.1);
+}
+
+.imp-sec .main ul.imp-s li .fig-name {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+.imp-sec .main ul.imp-s li .fig-name img {
+    width: 30px;
+}
+
+.imp-sec .main ul.imp-s li .fig-name p {
+    color: #fff;
+    font-size: 18px;
 }
 
 .highlight-sec {

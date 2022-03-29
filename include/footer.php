@@ -153,6 +153,7 @@
 
 <script src="./js/jquery.js"></script>
 <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/waypoints.min.js"></script>
 <script src="./js/jquery.counterup.min.js" type="text/javascript"></script>
 <script src="./js/intlTelInput.js" type="text/javascript"></script>

@@ -105,8 +105,8 @@ var swiper = new Swiper(".imp-s-c", {
         disableOnInteraction: false,
     },
     navigation: {
-        nextEl: ".imp-sec .main .swiper-button-next",
-        prevEl: ".imp-sec .main .swiper-button-prev",
+        nextEl: ".imp-sec .swiper-button-next",
+        prevEl: ".imp-sec .swiper-button-prev",
     },
     pagination: {
         // el: ".swiper-pagination",

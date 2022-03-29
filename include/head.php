@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/intlTelInput.css">
   <link rel="stylesheet" href="<?php echo $fal; ?>">
   <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

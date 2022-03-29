@@ -213,36 +213,58 @@
                     <div class="head">
                         <h2>Implementation Industries</h2>
                     </div>
-                    <div class="swiper-container imp-s-c">
-                        <ul class="imp-s swiper-wrapper">
-                            <li class="swiper-slide">
-                                <figure>
-                                    <img src="images/imp1.jpg" alt="" />
-                                </figure>
-                            </li>
-                            <li class="swiper-slide">
-                                <figure>
-                                    <img src="images/imp2.jpg" alt="" />
-                                </figure>
-                            </li>
-                            <li class="swiper-slide">
-                                <figure>
-                                    <img src="images/imp3.jpg" alt="" />
-                                </figure>
-                            </li>
-                            <li class="swiper-slide">
-                                <figure>
-                                    <img src="images/imp4.jpg" alt="" />
-                                </figure>
-                            </li>
-                            <li class="swiper-slide">
-                                <figure>
-                                    <img src="images/imp5.jpg" alt="" />
-                                </figure>
-                            </li>
-                        </ul>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                    <div class="main-container">
+                        <div class="swiper-container imp-s-c">
+                            <ul class="imp-s swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <figure>
+                                        <img src="images/imp1.jpg" alt="" />
+                                    </figure>
+                                    <div class="fig-name">
+                                        <img src="images/impa1.png" alt="" />
+                                        <p>Education</p>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <figure>
+                                        <img src="images/imp2.jpg" alt="" />
+                                    </figure>
+                                    <div class="fig-name">
+                                        <img src="images/impa2.png" alt="" />
+                                        <p>Healthcare</p>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <figure>
+                                        <img src="images/imp3.jpg" alt="" />
+                                    </figure>
+                                    <div class="fig-name">
+                                        <img src="images/impa3.png" alt="" />
+                                        <p>Non-Profit</p>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <figure>
+                                        <img src="images/imp4.jpg" alt="" />
+                                    </figure>
+                                    <div class="fig-name">
+                                        <img src="images/impa4.png" alt="" />
+                                        <p>Recruitment</p>
+                                    </div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <figure>
+                                        <img src="images/imp5.jpg" alt="" />
+                                    </figure>
+                                    <div class="fig-name">
+                                        <img src="images/impa5.png" alt="" />
+                                        <p>Travel</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                        </div>
                     </div>
                 </div>
             </div>
