@@ -7,6 +7,32 @@ $(document).ready(function() {
     });
 });
 
+// this is for faq
+// $(".accordion-content").css("display", "none");
+$(".accordion-title").click(function() {
+    if ($('.accordion-content').is(':visible')) {
+        $(".accordion-content").slideUp(300);
+        $(".accordion-title span").html('<i class="fa fa-plus"></i>');
+    }
+    if ($(this).next(".accordion-content").is(':visible')) {
+        $(this).next(".accordion-content").slideUp(300);
+        $(this).children("span").html('<i class="fa fa-plus"></i>');
+    } else {
+        $(this).next(".accordion-content").slideDown(300);
+        $(this).children("span").html('<i class="fa fa-minus"></i>');
+    }
+});
+
+$('.port-popup').click(function() {
+    $('.port-popup').fadeOut();
+});
+$('.inn-port').click(function(e) {
+    e.stopPropagation();
+});
+$('.accordpop').click(function() {
+    $('.port-popup').fadeIn();
+});
+
 $(".trust-slider").slick({
     dots: false,
     autoplay: true,
@@ -64,6 +90,33 @@ $(".slide").slick({
             slidesToShow: 1
         }
     }]
+});
+
+var swiper = new Swiper(".imp-s-c", {
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    spaceBetween: 10,
+    loop: true,
+    freeMode: false,
+    autoPlay: true,
+    speed: 700,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".imp-sec .main .swiper-button-next",
+        prevEl: ".imp-sec .main .swiper-button-prev",
+    },
+    pagination: {
+        // el: ".swiper-pagination",
+        // clickable: true,
+    },
+    breakpoints: {
+        500: {
+            slidesPerView: 5,
+        },
+    }
 });
 
 
