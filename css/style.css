@@ -1039,71 +1039,6 @@ nav {
 
 /******************** popup ********************/
 
-.port-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 50;
-    display: none;
-}
-
-.port-popup .inn-port {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 70%;
-    background-color: #fff;
-    padding: 30px;
-    overflow: auto;
-}
-
-.port-popup .inn-port .main {
-    display: flex;
-    align-items: center;
-}
-
-.port-popup .inn-port .main .pic {
-    width: 35%;
-}
-
-.port-popup .inn-port .main .add {
-    width: 65%;
-}
-
-.accordion-container .inn-fa {
-    margin-bottom: 10px;
-}
-
-.accordion-container .accordion-title {
-    position: relative;
-    margin: 0;
-    padding: 20px 32px 20px 10px;
-    font-size: 1.1em;
-    font-weight: 800;
-    color: #000;
-    cursor: pointer;
-    border: 1px solid #f1f1f1;
-    background: #f7f7f7;
-}
-
-.accordion-container .accordion-title span {
-    float: right;
-}
-
-.accordion-container .inn-fa .accordion-content {
-    display: none;
-}
-
-.accordion-container .inn-fa .accordion-content p {
-    background-color: #cbf0ff;
-    padding: 8px;
-}
-
 .popup {
     position: fixed;
     top: 0;
@@ -1545,6 +1480,381 @@ nav {
 
 .customer ul li:nth-child(2) {
     padding: 0 70px;
+}
+
+
+/******************** PRODUCT PORTFOLIO **********************/
+
+.port-ban {
+    position: relative;
+}
+
+.port-ban h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'tungsten';
+}
+
+.port-ban h1 span {
+    display: block;
+}
+
+.our-prod-sec {
+    padding: 50px 0;
+    overflow: unset;
+}
+
+.our-prod-sec .prod {
+    float: left;
+    width: 100%;
+}
+
+.our-prod-sec .prod .inn {
+    float: left;
+    width: 50%;
+}
+
+.our-prod-sec .prod .inn h2 {
+    color: #0095d5;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'tungsten';
+}
+
+.our-prod-sec .prod .inn p {
+    color: #4f4f4f;
+    font-size: 18px;
+    font-family: 'muli';
+}
+
+.both-sec {
+    height: 500px;
+    margin-bottom: 300px;
+    background-color: #eeeeee;
+    position: relative;
+    overflow: unset;
+}
+
+.both-sec::before {
+    position: absolute;
+    content: '';
+    background: url(../images/prod-portfolio/cloud.png) no-repeat;
+    background-position: center;
+    bottom: -280px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.both-sec::after {
+    position: absolute;
+    content: '';
+    background: url(../images/prod-portfolio/partner.jpg) no-repeat;
+    right: 0;
+    top: -150px;
+    width: 800px;
+    height: 540px;
+}
+
+.both-sec .main {
+    float: left;
+    width: 100%;
+}
+
+.port-popup .inn-port {
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+
+/* .accordion-container .inn-fa {
+    margin-bottom: 10px;
+} */
+
+.accordion-container .accordion-title.active {
+    background-color: #0095d5;
+    color: #fff;
+}
+
+.accordion-container .accordion-title {
+    position: relative;
+    margin: 0;
+    padding: 20px 32px 20px 10px;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    background: #f7f7f7;
+}
+
+.accordion-container .accordion-title span {
+    float: right;
+}
+
+.accordion-container .inn-fa .accordion-content {
+    display: none;
+}
+
+.accordion-container .inn-fa .accordion-content p {
+    background-color: #cbf0ff;
+    padding: 20px;
+    text-align: justify;
+}
+
+.both-sec .main .lt,
+.both-sec .main .rt {
+    float: left;
+    width: 50%;
+}
+
+
+/********************CONSULT & IMPLEMENTATION**********************/
+
+.impl-sec {
+    padding: 50px 0;
+}
+
+.impl-sec .head {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.impl-sec .head h2 {
+    font-family: 'tungsten';
+    font-size: 50px;
+    color: #030303;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.impl-sec .head p {
+    font-family: 'muli';
+    color: #222222;
+    font-size: 19px;
+}
+
+.impl-sec ul.imp-mag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.impl-sec ul.imp-mag li {
+    margin: .5%;
+    padding: 2%;
+    width: 19%;
+    border: 1px solid #eeeeee;
+    transition: .4s;
+}
+
+.impl-sec ul.imp-mag li:hover {
+    box-shadow: 0 2px 4px #aaaaaa88;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.impl-sec ul.imp-mag li figure {
+    width: 60px;
+    margin: auto;
+}
+
+.impl-sec ul.imp-mag li h3 {
+    font-family: 'tungsten';
+    font-size: 26px;
+    color: #0095d5;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-weight: 400;
+}
+
+.impl-sec ul.imp-mag li h3 span {
+    display: block;
+}
+
+.choos-us-imp {
+    font-family: 'Muli', sans-serif;
+    padding: 50px 0 74px;
+    position: relative;
+}
+
+.choos-us-imp.light {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f1f1f1;
+    margin-top: -4px;
+}
+
+.choos-us-imp.light .main-se ul li {
+    padding-top: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: #ffffff;
+}
+
+.choos-us-imp.light h2 {
+    font-size: 50px;
+}
+
+.choos-us-imp h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+    font-family: 'tungsten';
+}
+
+.choos-us-imp .main-se .swiper-pagination {
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.choos-us-imp .main-se .swiper-pagination .swiper-pagination-bullet {
+    margin-left: 8px;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border: 1px solid #0095d5;
+}
+
+.choos-us-imp .main-se .swiper-pagination .swiper-pagination-bullet-active {
+    background: #0095d5;
+    color: #0095d5;
+}
+
+.choos-us-imp .main-se {
+    position: relative;
+    padding-top: 40px;
+}
+
+.choos-us-imp .main-se::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 60%;
+    top: 0;
+    background-color: #0095d5;
+    z-index: -1;
+}
+
+.choos-us-imp .main-se .choosSwiper {
+    margin: 0 60px;
+}
+
+.choos-us-imp .main-se ul {
+    list-style: none;
+    height: 270px;
+}
+
+.choos-us-imp .main-se ul li {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #f1f1f1;
+    /* padding: 20px 20px 30px; */
+    transition: 0.3s;
+}
+
+.choos-us-imp .main-se ul li h3 {
+    color: #444;
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Khand', sans-serif;
+}
+
+.choos-us-imp .main-se ul li:hover {
+    box-shadow: 0 -8px 11px 8px rgba(0, 0, 0, 0.04);
+}
+
+.choos-us-imp .main-se ul li img {
+    width: 100px;
+}
+
+.choos-us-imp.main-se ul li p {
+    font-size: 14px;
+    color: #595E63;
+    line-height: 1.77778;
+}
+
+.choos-us-imp .subhead {
+    color: #595E63;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.salseforce-us-imp {
+    font-family: 'Muli', sans-serif;
+    padding: 50px 0 0;
+}
+
+.salseforce-us-imp .main-se {
+    box-shadow: 0 -8px 11px 8px rgba(0, 0, 0, 0.04);
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.salseforce-us-imp .main-se h2 {
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'tungsten';
+}
+
+.salseforce-us-imp .main-se ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.salseforce-us-imp .main-se ul li {
+    text-align: center;
+    width: 23%;
+    margin: 1%;
+    padding: 25px;
+    border: 1px solid #0b96cf;
+    border-radius: 11px;
+}
+
+.salseforce-us-imp .main-se ul li h3 {
+    font-size: 19px;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #6d6e71
+}
+
+.salseforce-us-imp .main-se ul li p {
+    font-size: 14px;
+    color: #595E63;
+    line-height: 1.77778;
+}
+
+.salseforce-us-imp .subhead {
+    color: #595E63;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: #d8d8d8 solid 1px;
 }
 
 

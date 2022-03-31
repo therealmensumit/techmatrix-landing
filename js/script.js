@@ -21,17 +21,19 @@ $(".accordion-title").click(function() {
         $(this).next(".accordion-content").slideDown(300);
         $(this).children("span").html('<i class="fa fa-minus"></i>');
     }
+    $('.accordion-container .accordion-title').removeClass('active');
+    $(this).addClass('active');
 });
 
-$('.port-popup').click(function() {
-    $('.port-popup').fadeOut();
-});
-$('.inn-port').click(function(e) {
-    e.stopPropagation();
-});
-$('.accordpop').click(function() {
-    $('.port-popup').fadeIn();
-});
+// $('.port-popup').click(function() {
+//     $('.port-popup').fadeOut();
+// });
+// $('.inn-port').click(function(e) {
+//     e.stopPropagation();
+// });
+// $('.accordpop').click(function() {
+//     $('.port-popup').fadeIn();
+// });
 
 $(".trust-slider").slick({
     dots: false,
@@ -115,6 +117,33 @@ var swiper = new Swiper(".imp-s-c", {
     breakpoints: {
         500: {
             slidesPerView: 5,
+        },
+    }
+});
+
+var swiper = new Swiper(".choosSwiper", {
+    slidesPerView: 1,
+    slidesPerGroup: 2,
+    spaceBetween: 10,
+    loop: true,
+    freeMode: false,
+    autoPlay: true,
+    speed: 700,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        // nextEl: ".choos-us-imp .swiper-button-next",
+        // prevEl: ".choos-us-imp .swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        500: {
+            slidesPerView: 4,
         },
     }
 });

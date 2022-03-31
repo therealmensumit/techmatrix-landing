@@ -1,19 +1,15 @@
-<?php
-  define('FILENAME', basename($_SERVER['PHP_SELF'], '.php'));
-  $fal = (FILENAME=='index' or FILENAME=='thanks')? 'css/font-awesome.min.css' : HDOMAIN.'css/font-awesome.min.css';
-  $sl = (FILENAME=='index' or FILENAME=='thanks')? 'css/style.css' : HDOMAIN.'css/style.css';
-?>
+
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TechMatrix</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="<?php echo $sl; ?>">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css" media="screen">
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen">
   <link rel="stylesheet" href="css/intlTelInput.css">
-  <link rel="stylesheet" href="<?php echo $fal; ?>">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/animate.css" />
   <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   
