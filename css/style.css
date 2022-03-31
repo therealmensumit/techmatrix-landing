@@ -1645,6 +1645,7 @@ nav {
 .impl-sec ul.imp-mag {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .impl-sec ul.imp-mag li {
