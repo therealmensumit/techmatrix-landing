@@ -18,13 +18,30 @@
                         <input type="tel" value="+91 " class="phone" name="phone">
                     </div>
                     <div class="form_in">
-                        <input type="text" class="name" name="Employees" id="" placeholder="Employees">
+                        <!-- <input type="text" class="name" name="Employees" id="" placeholder="Employees"> -->
+                        <select class="select" name="" id="">
+                            <option value="" selected disabled>Employees</option>
+                            <option value="">0-100</option>
+                            <option value="">101-200</option>
+                            <option value="">201-300</option>
+                            <option value="">301-400</option>
+                            <option value="">401-500</option>
+                        </select>
                     </div>
                 </div>
 
                 <div class="form_main">
                     <div class="form_in">
-                        <input type="text" class="name" name="interest" id="" placeholder="Product of Interest">
+                        <!-- <input type="text" class="name" name="interest" id="" placeholder="Product of Interest"> -->
+                        <div id="list1" class="dropdown-check-list" tabindex="100">
+                            <span class="anchor">Product of Interest</span>
+                            <ul class="items">
+                                <li><label for="1"><input id="1" class="interest" type="checkbox" />Product1 </label></li>
+                                <li><label for="2"><input id="2" class="interest" type="checkbox" />Product1 </label></li>
+                                <li><label for="3"><input id="3" class="interest" type="checkbox" />Product1 </label></li>
+                                <li><label for="4"><input id="4" class="interest" type="checkbox" />Product1 </label></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="form_in">
                         <textarea placeholder="What do you want to talk about?" class="message" name="message" id=""
