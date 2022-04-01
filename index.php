@@ -181,6 +181,42 @@
                                     <p>Travel</p>
                                 </div>
                             </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="images/imp6.jpg" alt="" />
+                                </figure>
+                                <div class="fig-name">
+                                    <img src="images/impa6.png" alt="" />
+                                    <p>Retail</p>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="images/imp7.jpg" alt="" />
+                                </figure>
+                                <div class="fig-name">
+                                    <img src="images/impa7.png" alt="" />
+                                    <p>BFSI/Fintech</p>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="images/imp8.jpg" alt="" />
+                                </figure>
+                                <div class="fig-name">
+                                    <img src="images/impa8.png" alt="" />
+                                    <p>Insurance</p>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <figure>
+                                    <img src="images/imp9.jpg" alt="" />
+                                </figure>
+                                <div class="fig-name">
+                                    <img src="images/impa9.png" alt="" />
+                                    <p>Automobile</p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="swiper-button-next"></div>
