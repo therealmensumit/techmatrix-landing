@@ -1604,7 +1604,7 @@ nav {
     background: url(../images/prod-portfolio/partner.jpg) no-repeat;
     right: 0;
     top: -150px;
-    width: 800px;
+    width: 700px;
     height: 540px;
 }
 
@@ -1616,6 +1616,16 @@ nav {
 .port-popup .inn-port {
     padding-right: 30px;
     padding-top: 60px;
+}
+
+.port-popup .inn-port .add {
+    position: relative;
+}
+
+.port-popup .inn-port .add .accordion-container {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
 
