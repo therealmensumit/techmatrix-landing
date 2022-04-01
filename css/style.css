@@ -1979,8 +1979,13 @@ nav {
     position: relative;
 }
 
+.form_contact .form_main .form_in .iti__selected-flag {
+    height: 75%;
+}
+
 .form_contact .form_main .form_in input.phone {
     padding-left: 50px;
+    margin-bottom: 20px !important;
 }
 
 .get_in_touch .form_contact .form_main .form_in {

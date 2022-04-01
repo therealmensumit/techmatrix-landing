@@ -241,39 +241,32 @@
 <script src="./js/utils.js"></script>
 <script src="./js/wow.min.js"></script>
 <script src="./js/script.js"></script>
-
-<!-- Messenger Chat Plugin Code -->
-<!-- <div id="fb-root"></div> -->
-
-<!-- Your Chat Plugin code -->
-<!-- <div id="fb-customer-chat" class="fb-customerchat"></div> -->
-
-
-<!-- <script>
-  $('.cl_email_pop').click(function(){
-      $('.cont-assist-need.popup').fadeIn();
-  });
-  $('.cl_close_a').click(function(){
-      $('.cont-assist-need.popup').fadeOut();
-  });
-</script>
 <script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "207300825973349");
-  chatbox.setAttribute("attribution", "biz_inbox");
+    $(document).ready(function() {
+            var input = document.querySelector(".phone");
+            window.intlTelInput(input, {
+                // allowDropdown: false,
+                // autoHideDialCode: false,
+                autoPlaceholder: "off",
+                // dropdownContainer: document.body,
+                // excludeCountries: ["us"],
+                //formatOnDisplay: false,
+                // geoIpLookup: function(callback) {
+                //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                //     var countryCode = (resp && resp.country) ? resp.country : "";
+                //     callback(countryCode);
+                //   });
+                // },
+                // hiddenInput: "full_number",
+                initialCountry: "in",
+                // localizedCountries: { 'de': 'Deutschland' },
+                // nationalMode: false,
+                // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                // placeholderNumberType: "MOBILE",
+                // preferredCountries: ['cn', 'jp'],
+                //separateDialCode: true,
+                utilsScript: "js/utils.js",
+            });
+        });
+</script>
 
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v12.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script> -->
