@@ -61,6 +61,45 @@
     </section>
 
 
+    <section class="highlight-sec">
+        <div class="container">
+            <div class="head">
+                <h2>Highlights</h2>
+            </div>
+            <ul>
+                <li class="wow  slideInLeft">
+                    <span class="count">600</span><b>+</b><br>
+                    <p>Projects</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">500</span><b>+</b><br>
+                    <p>Clients</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">400</span><b>+</b><br>
+                    <p>Implementations</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">250</span><b>+</b><br>
+                    <p>Team Members</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">11</span><b>+</b><br>
+                    <p>Years of IT Experience</p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="coun">5/5</span><!-- <b>+</b> --><br>
+                    <p>CSAT Scores </p>
+                </li>
+                <li class="wow  slideInLeft">
+                    <span class="count">10</span><b>+</b><br>
+                    <p>Industries Served</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
     <section class="choos-us-imp wow fadeIn">
         <div class="container">
             <div class="main-se">
@@ -181,53 +220,15 @@
     </section>
 
 
-    <section class="get_in_touch">
-        <div class="container">
-            <h2 class="wow slideInRight">Get in touch</h2>
-            <h3 class="wow slideInLeft">Let Us Take Your Business to New Heights</h3>
-            <div class="form_contact wow slideInDown">
-                <form action="thanks.php" id="hme-frm" method="post">
-                    <input type="hidden" name="action" value="home_query">
-                    <input type="hidden" name="page" value="Home">
-                    <h4>Personal details</h4>
-                    <div class="form_main">
-                        <div class="form_in">
-                            <input type="text" name="name" class="name" id="" placeholder="Name">
-                        </div>
-                        <div class="form_in">
-                            <input type="email" name="email" class="email" id="" placeholder="Email">
-                        </div>
-                        <div class="form_in">
-                            <input type="tel" value="+91 " class="phone" name="phone">
-                        </div>
-                    </div>
-
-                    <div class="form_main">
-                        <div class="form_in">
-                            <textarea placeholder="What do you want to talk about?" class="message" name="message" id=""
-                                cols="30" rows="14"></textarea>
-                        </div>
-
-                        <div class="form_in left">
-                            <div class="g-recaptcha" data-sitekey='6LcOk68eAAAAAHaTOUvNdDMUx-YOgFmRFAwmhWQP'></div>
-                            <script src='https://www.google.com/recaptcha/api.js'></script>
-                            <span class="butn-com">
-                                <button class="cl_form_sub snd" type="submit">Send Inquiry</button>
-                                <div class="loader"><img
-                                        src="https://techmatrixconsulting.com/images/fancybox_loading.gif" alt="">
-                                </div>
-                            </span>
-                        </div>
-                </form>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
-
     <!-- footer  -->
     <?php include('include/footer.php') ?>
+
+    <script>
+        $(".count").counterUp({
+        delay: 10,
+        time: 2000
+        });
+    </script>
 
 </body>
 

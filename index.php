@@ -19,6 +19,7 @@
                                 can help your sales, marketing, service, commerce and IT teams function together from
                                 any location -to ensure that your customers are happy wherever they go.</p>
                         </div>
+                        <a href="product-portfolio.php" class="btn">View Product Portfolio</a>
                     </div>
                     <div class="right">
                         <div class="panda">
@@ -68,10 +69,13 @@
                     <img src="images/i1.png" alt="" />
                 </div>
                 <div class="tec">
-                    <img src="images/i2.png" alt="" />
+                    <img src="images/i4.png" alt="" />
                 </div>
                 <div class="tec">
                     <img src="images/i3.png" alt="" />
+                </div>
+                <div class="tec">
+                    <img src="images/i2.png" alt="" />
                 </div>
             </div>
         </div>
@@ -606,54 +610,34 @@
     </section>
 
 
-    <section class="get_in_touch">
-        <div class="container">
-            <h2 class="wow slideInRight">Get in touch</h2>
-            <h3 class="wow slideInLeft">Let Us Take Your Business to New Heights</h3>
-            <div class="form_contact wow slideInDown">
-                <form action="thanks.php" id="hme-frm" method="post">
-                    <input type="hidden" name="action" value="home_query">
-                    <input type="hidden" name="page" value="Home">
-                    <h4>Personal details</h4>
-                    <div class="form_main">
-                        <div class="form_in">
-                            <input type="text" name="name" class="name" id="" placeholder="Name">
-                        </div>
-                        <div class="form_in">
-                            <input type="email" name="email" class="email" id="" placeholder="Email">
-                        </div>
-                        <div class="form_in">
-                            <input type="tel" value="+91 " class="phone" name="phone">
-                        </div>
-                    </div>
-
-                    <div class="form_main">
-                        <div class="form_in">
-                            <textarea placeholder="What do you want to talk about?" class="message" name="message" id=""
-                                cols="30" rows="14"></textarea>
-                        </div>
-
-                        <div class="form_in left">
-                            <div class="g-recaptcha" data-sitekey='6LcOk68eAAAAAHaTOUvNdDMUx-YOgFmRFAwmhWQP'></div>
-                            <script src='https://www.google.com/recaptcha/api.js'></script>
-                            <span class="butn-com">
-                                <button class="cl_form_sub snd" type="submit">Send Inquiry</button>
-                                <div class="loader"><img
-                                        src="https://techmatrixconsulting.com/images/fancybox_loading.gif" alt="">
-                                </div>
-                            </span>
-                        </div>
-                </form>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
-
     <!-- footer  -->
     <?php include('include/footer.php') ?>
     <script>
+        $(document).ready(function() {
+            var input = document.querySelector(".phone");
+            window.intlTelInput(input, {
+                // allowDropdown: false,
+                // autoHideDialCode: false,
+                autoPlaceholder: "off",
+                // dropdownContainer: document.body,
+                // excludeCountries: ["us"],
+                //formatOnDisplay: false,
+                // geoIpLookup: function(callback) {
+                //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                //     var countryCode = (resp && resp.country) ? resp.country : "";
+                //     callback(countryCode);
+                //   });
+                // },
+                // hiddenInput: "full_number",
+                initialCountry: "in",
+                // localizedCountries: { 'de': 'Deutschland' },
+                // nationalMode: false,
+                // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                // placeholderNumberType: "MOBILE",
+                // preferredCountries: ['cn', 'jp'],
+                //separateDialCode: true,
+                utilsScript: "js/utils.js",
+            });
     $(".count").counterUp({
         delay: 10,
         time: 2000
