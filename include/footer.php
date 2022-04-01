@@ -36,10 +36,15 @@
                         <div id="list1" class="dropdown-check-list" tabindex="100">
                             <span class="anchor">Product of Interest</span>
                             <ul class="items">
-                                <li><label for="1"><input id="1" class="interest" type="checkbox" />Product1 </label></li>
-                                <li><label for="2"><input id="2" class="interest" type="checkbox" />Product1 </label></li>
-                                <li><label for="3"><input id="3" class="interest" type="checkbox" />Product1 </label></li>
-                                <li><label for="4"><input id="4" class="interest" type="checkbox" />Product1 </label></li>
+                                <li><label for="1"><input id="1" class="interest" type="checkbox" />Sales Cloud</label></li>
+                                <li><label for="2"><input id="2" class="interest" type="checkbox" />Service Cloud</label></li>
+                                <li><label for="3"><input id="3" class="interest" type="checkbox" />Marketing Cloud</label></li>
+                                <li><label for="4"><input id="4" class="interest" type="checkbox" />Pardot</label></li>
+                                <li><label for="5"><input id="5" class="interest" type="checkbox" />Experience Cloud</label></li>
+                                <li><label for="6"><input id="6" class="interest" type="checkbox" />Commerce Cloud</label></li>
+                                <li><label for="7"><input id="7" class="interest" type="checkbox" />CPQ</label></li>
+                                <li><label for="8"><input id="8" class="interest" type="checkbox" />Field Service Lightning</label></li>
+                                <li><label for="9"><input id="9" class="interest" type="checkbox" />Customer 360</label></li>
                             </ul>
                         </div>
                     </div>
