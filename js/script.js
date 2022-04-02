@@ -76,7 +76,7 @@ $(".trust-slider").slick({
 
 $(".slide").slick({
     dots: false,
-    autoplay: true,
+    autoplay: false,
     fade: false,
     prevArrow: '<i class="fa fa-angle-left"></i>',
     nextArrow: '<i class="fa fa-angle-right"></i>',

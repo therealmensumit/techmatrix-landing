@@ -829,7 +829,10 @@ nav {
     right: 0;
     background: #fff;
     box-shadow: 0 2px 4px #d0d0d0;
+    width: 80%;
 }
+
+.port-sec .main .pp {}
 
 .port-sec .main .pp .lm h2 {
     margin-bottom: 10px;
@@ -912,7 +915,7 @@ nav {
 
 .imp-sec .main ul.imp-s {
     display: flex;
-    height: 226px;
+    height: auto;
 }
 
 .imp-sec .main ul.imp-s li {
@@ -2586,4 +2589,186 @@ footer .foot-bottom .foot-cntr .left img {
 
 footer .foot-bottom .foot-cntr .social-media {
     float: right;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 920px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 740px;
+    }
+    .icos-sec .main .tec {
+        margin: 0 10px;
+    }
+    .banner .content .main .para p {
+        padding-right: 12px;
+    }
+    .banner .content .main .right {
+        width: 55%;
+    }
+    .banner .content .main .right .panda img {
+        width: 180px;
+    }
+    .banner .content .main .right .panda {
+        right: 52%;
+    }
+    .partner-sec {
+        height: auto;
+        background-size: cover;
+    }
+    .partner-sec .main {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .partner-sec .main .lt h2 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .partner-sec .main .lt h3 {
+        line-height: 65px;
+        font-size: 60px;
+    }
+    .highlight-sec ul li {
+        margin-right: 20px;
+    }
+    .casestudy h2 {
+        font-size: 61px;
+    }
+    .casestudy .casestudy-list {
+        width: 89%;
+        padding: 25px 24px;
+    }
+    .customer ul li img {
+        width: 100%;
+    }
+    .customer ul li .img_dv {
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .our_client {
+        padding: 12px 0px 33px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+    header .log {
+        width: 125px;
+    }
+    .banner {
+        background-size: cover;
+        height: 100%;
+    }
+    .banner .content .main .para p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+    .banner .content .main {
+        flex-wrap: wrap;
+    }
+    .banner .content .main .left {
+        width: 100%;
+    }
+    .banner .content .main .right {
+        width: 100%;
+    }
+    .banner .content .main .right form {
+        margin: 20px 0 0;
+    }
+    .banner .content .main .right .panda {
+        display: none;
+    }
+    .icos-sec .main {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .icos-sec .main .tec {
+        width: 48%;
+        margin: 0 0 10px;
+    }
+    .icos-sec .main .tec img {
+        width: 100%;
+    }
+    .port-sec .main {
+        flex-wrap: wrap;
+    }
+    .customer p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .customer p span {
+        display: unset;
+    }
+    .customer ul li p {
+        font-size: 13px;
+        text-align: center;
+        padding-right: 0;
+        line-height: 22px;
+    }
+    .customer ul li .cust_txt span {
+        text-align: center;
+        float: left;
+    }
+    .customer ul li {
+        margin-top: 10px;
+    }
+    .customer ul li .cust_txt::before {
+        content: none;
+    }
+    .customer .fa-angle-left {
+        top: 102%;
+        left: 43%;
+    }
+    .customer .fa-angle-right {
+        top: 102%;
+        right: 43%;
+    }
+    .casestudy .casestudy-list {
+        width: 100%;
+        margin: 0;
+        padding: 25px 25px 0;
+    }
+    .casestudy .casestudy-list ul {
+        flex-direction: column;
+    }
+    .casestudy .casestudy-list ul li {
+        width: 100%;
+        margin: 0;
+    }
+    .casestudy .casestudy-bg {
+        height: auto;
+        padding: 20px 0;
+    }
+    .casestudy .case-cntr {
+        width: 100%;
+    }
+    .casestudy h2 {
+        font-size: 45px;
+    }
+    .casestudy p {
+        padding: 10px 0;
+    }
+    .customer ul li .img_dv {
+        width: 100%;
+        padding-bottom: 10px;
+        height: auto;
+    }
+    .customer ul li .cust_txt {
+        width: 100%;
+    }
+    .draggable {
+        height: auto !important;
+    }
+    .customer .slick-slide {
+        height: auto;
+    }
+    .customer ul li figure {
+        padding-top: 10px;
+    }
 }
