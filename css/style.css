@@ -839,20 +839,24 @@ nav {
 .port-sec .main .pp .lm a.btn {
     background-color: #0d9ed7;
     color: #fff;
+    display: inline-block;
     text-decoration: none;
     border-radius: 6px;
-    padding: 10px;
+
     margin: 0;
     overflow: hidden;
     box-shadow: 0 2px 4px #4f505044;
-    transition: all .2s ease-in-out;
+    transition: .2s;
     position: relative;
+    z-index: 0;
+    
+   
 }
 
-.port-sec .main .pp .lm a.btn:hover {
-    background: #fff;
+ .port-sec .main .pp .lm a.btn:hover {
+
     color: #0d9ed7;
-}
+} 
 
 .port-sec .main .pp .lm a.btn::after {
     position: absolute;
@@ -867,6 +871,7 @@ nav {
     transform-origin: 50% 100%;
     transition: transform 0.3s ease-out;
     transition-timing-function: ease-out;
+
 }
 
 .port-sec .main .pp .lm a.btn:hover::after {
@@ -1046,20 +1051,22 @@ nav {
 }
 
 .abouttech-sec .main .rt .know a.btn {
-    padding: 10px 20px;
+    padding: 0 ;
     border-radius: 6px;
     font-size: 20px;
+    display: inline-block;
     font-family: 'tungsten';
     font-weight: 100;
     box-shadow: none;
-    z-index: 1;
+    z-index: 0;
     overflow: hidden;
     position: relative;
+    width: 100px;
 }
 
 .abouttech-sec .main .rt .know a.btn:hover {
     color: #0b96cf;
-    background: #fff;
+
 }
 
 .abouttech-sec .main .rt .know a.btn::before {
@@ -1248,7 +1255,24 @@ nav {
     margin: 1%;
     overflow: hidden;
 }
+.casestudy .casestudy-list ul li ul li{
+    width: 100%;
+    text-align: left;
+    margin: 0 ;
+    padding-left: 37px;
+    position: relative;
+}
+.casestudy .casestudy-list ul li ul li::before{
+    content: '';
+    background: #000;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: 26px;
+    top: 5px;
+    border-radius: 50%;
 
+}
 .casestudy .casestudy-list ul li .casestudy-bdr {
     width: 100%;
     border: 1px solid #e1e1e1;

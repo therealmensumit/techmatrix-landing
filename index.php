@@ -29,7 +29,7 @@
                             <form action="">
                                 <div class="form-head">
                                     <h2>GET STARTED</h2>
-                                    <span>Talk with a Specialist about getting started with optimizely:</span>
+                                    <span>Talk with a Specialist about getting started with</span>
                                 </div>
                                 <div class="inp">
                                     <input type="text" name="name" placeholder="Name" />
@@ -337,12 +337,12 @@
                             <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379210880.jpg"
                                 alt="">
                         </figure>
-                        <span class="wow fadeIn" data-wow-duration="2s">Data governance of over 2000 products and 27
-                            insurers</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Thousands of existing enterprise applications
-                            to be
-                            migrated and modernized to a new platform on AWS, successfully building a highly secured
-                            platform and reducing infrastructure.</p>
+                        <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Founded in 2009 by a group of highly skilled and passionate IT professionals, ATD is a world-class leading
+provider of business IT architecture solutions. As the leading business IT architecture firm in Asia Pacific,
+they are dedicated in changing the way companies in the region use and adopt IT through their specialised
+services, which includes extensive business IT architecture training, consultancy services, as well as
+hands-on coaching and mentoring.</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
@@ -357,10 +357,12 @@
                         <span class="wow fadeIn" data-wow-duration="2s">Integration of Donors, fundraising,
                             sponsorship
                             & events with cloud</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Fundraising platforms integrate directly with
-                            Salesforce. There is no shortage of participant, donor, and event metadata being
-                            captured.
-                            Use of Salesforce Marketing Cloud.</p>
+                        <ul>
+                            <li>hjkhjkhsh</li>
+                            <li>hjkhjkhsh</li>
+                            <li>hjkhjkhsh</li>
+                            <li>hjkhjkhsh</li>
+                        </ul>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
