@@ -8,7 +8,8 @@
 
     <section class="port-ban">
         <div class="ban">
-            <img src="images/prod-portfolio/banner.jpg" alt="banner" />
+            <img class="desk" src="images/prod-portfolio/banner.jpg" alt="banner" />
+            <img class="mob" src="images/prod-portfolio/mob-banner.jpg" alt="mobile-banner" />
             <div class="container">
                 <h1>Product Portfolio</h1>
             </div>
@@ -206,12 +207,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="rt">
-                    <!-- <img src="images/prod-portfolio/partner.jpg" alt="" /> -->
-                </div>
+                <!-- <div class="rt">
+                    <img src="images/prod-portfolio/partner.jpg" alt="" />
+                </div> -->
             </div>
         </div>
     </section>
+    <section class="ex-space"></section>
 
 
     <!-- footer  -->

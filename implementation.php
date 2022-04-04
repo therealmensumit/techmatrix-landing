@@ -8,7 +8,8 @@
 
     <section class="port-ban">
         <div class="ban">
-            <img src="images/consult/banner.jpg" alt="banner" />
+            <img class="desk" src="images/consult/banner.jpg" alt="banner" />
+            <img class="mob" src="images/consult/mob-banner.jpg" alt="mobile-banner" />
             <div class="container">
                 <h1>Consulting & <span>Implementation</span></h1>
             </div>

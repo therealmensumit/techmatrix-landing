@@ -9,7 +9,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="index.php"><img class="log" src="images/logo-2.png" alt="Logo Image"></a>
         </div>
         <div class="sec-logo">
-            <a href="javascript:void()"><img src="images/sf-logo.png" alt=""></a>
+            <a href="javascript:void()"><img class="log" src="images/sf-logo.png" alt=""></a>
           </div>
 
         <div class="right">
