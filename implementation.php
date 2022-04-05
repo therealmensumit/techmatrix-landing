@@ -16,6 +16,14 @@
         </div>
     </section>
 
+    <div class="gotoback">
+        <div class="container">
+            <a href="index.php">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i> Go Back
+            </a>
+        </div>
+    </div>
+
 
     <section class="impl-sec">
         <div class="container">

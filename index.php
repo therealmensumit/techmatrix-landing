@@ -338,11 +338,7 @@
                                 alt="">
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Founded in 2009 by a group of highly skilled and passionate IT professionals, ATD is a world-class leading
-provider of business IT architecture solutions. As the leading business IT architecture firm in Asia Pacific,
-they are dedicated in changing the way companies in the region use and adopt IT through their specialised
-services, which includes extensive business IT architecture training, consultancy services, as well as
-hands-on coaching and mentoring.</p>
+                        <p class="wow fadeIn" data-wow-duration="2s">Thousands of existing enterprise applications to be migrated and modernized to a new platform on AWS, successfully building a highly secured platform and reducing infrastructure.</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
@@ -357,12 +353,13 @@ hands-on coaching and mentoring.</p>
                         <span class="wow fadeIn" data-wow-duration="2s">Integration of Donors, fundraising,
                             sponsorship
                             & events with cloud</span>
-                        <ul>
+                        <!-- <ul>
                             <li>hjkhjkhsh</li>
                             <li>hjkhjkhsh</li>
                             <li>hjkhjkhsh</li>
                             <li>hjkhjkhsh</li>
-                        </ul>
+                        </ul> -->
+                        <p class="wow fadeIn" data-wow-duration="2s">Fundraising platforms integrate directly with Salesforce. There is no shortage of participant, donor, and event metadata being captured. Use of Salesforce Marketing Cloud.</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
