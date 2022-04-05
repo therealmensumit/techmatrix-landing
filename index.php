@@ -334,40 +334,35 @@
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379210880.jpg"
-                                alt="">
+                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379210880.jpg" alt="" />
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Sales users were able to create multiple quotations and were relieved from manual work of approval process. This has reduced the workload and made them more efficient in managing their time.</p>
 
                     </div>
-                    <a href="javascript:void()" class="get_det_bt"> Get the details <i
-                            class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/ATD_Customer Success Story.pptx.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211020.jpg"
-                                alt="">
+                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211020.jpg" alt="" />
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Centralize valuable patient information on a shared platform accessible by all user departments</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of customer service team by promoting self-service for tour bookings, event registrations by integrating with MAH website.</p>
 
                     </div>
-                    <a href="javascript:void()" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/TMC Case Study_Healthcare.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211210.jpg"
-                                alt="">
+                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211210.jpg" alt="" />
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Centralize Candidates, Clients, Job Opening Information</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of Consultants with the use of Search Tool, Short List, Tear Sheet, Draft – Table of Candidates and Client Submission Tool developed for their ease.</p>
 
                     </div>
-                    <a href="javascript:void()" class="get_det_bt"> Get the details <i
-                            class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/TMC Case Study - Recruitment.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
@@ -378,8 +373,7 @@
                         <p class="wow fadeIn" data-wow-duration="2s">Account Profiling – A complete view of Enquiries, Students, Teachers, Vendors & Corporate Clients management  Course and Enrolment Management (Language Course, Enrolment & Fee module)</p>
 
                     </div>
-                    <a href="javascript:void()" class="get_det_bt"> Get the details <i
-                            class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/inlingua.pptx.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
             </ul>
         </div>
