@@ -1251,7 +1251,7 @@ nav {
 }
 
 .casestudy .casestudy-list ul li {
-    width: 31.33%;
+    width: 23%;
     margin: 1%;
     overflow: hidden;
 }
@@ -1281,7 +1281,7 @@ nav {
     float: left;
     box-shadow: 0 5px 10px #50505041;
     border-radius: 4px;
-    height: 441px;
+    height: 435px;
 }
 
 .casestudy .casestudy-list ul li img {
@@ -1293,7 +1293,7 @@ nav {
     font-size: 22px;
     text-align: left;
     float: left;
-    padding: 10px 25px;
+    padding: 10px;
     font-weight: 400;
     line-height: 25px;
     font-family: 'Khand', sans-serif;
@@ -1302,7 +1302,7 @@ nav {
 .casestudy .casestudy-list ul li p {
     font-size: 13px;
     color: #373435;
-    padding: 10px 25px;
+    padding: 10px;
     float: left;
     text-align: left;
     text-align: justify;
@@ -2818,7 +2818,10 @@ footer .foot-bottom .foot-cntr .social-media {
     }
     .casestudy .casestudy-list ul li {
         width: 100%;
-        margin: 0;
+        margin-top: 10px;
+    }
+    .casestudy .casestudy-list ul li .casestudy-bdr {
+        height: auto;
     }
     .casestudy .casestudy-bg {
         height: auto;

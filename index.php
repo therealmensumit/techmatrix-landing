@@ -338,7 +338,7 @@
                                 alt="">
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Thousands of existing enterprise applications to be migrated and modernized to a new platform on AWS, successfully building a highly secured platform and reducing infrastructure.</p>
+                        <p class="wow fadeIn" data-wow-duration="2s">Sales users were able to create multiple quotations and were relieved from manual work of approval process. This has reduced the workload and made them more efficient in managing their time.</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
@@ -350,16 +350,20 @@
                             <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211020.jpg"
                                 alt="">
                         </figure>
-                        <span class="wow fadeIn" data-wow-duration="2s">Integration of Donors, fundraising,
-                            sponsorship
-                            & events with cloud</span>
-                        <!-- <ul>
-                            <li>hjkhjkhsh</li>
-                            <li>hjkhjkhsh</li>
-                            <li>hjkhjkhsh</li>
-                            <li>hjkhjkhsh</li>
-                        </ul> -->
-                        <p class="wow fadeIn" data-wow-duration="2s">Fundraising platforms integrate directly with Salesforce. There is no shortage of participant, donor, and event metadata being captured. Use of Salesforce Marketing Cloud.</p>
+                        <span class="wow fadeIn" data-wow-duration="2s">Centralize valuable patient information on a shared platform accessible by all user departments</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of customer service team by promoting self-service for tour bookings, event registrations by integrating with MAH website.</p>
+
+                    </div>
+                    <a href="javascript:void()" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                </li>
+                <li class="wow slideInUp" data-wow-duration="0.5">
+                    <div class="casestudy-bdr">
+                        <figure>
+                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211210.jpg"
+                                alt="">
+                        </figure>
+                        <span class="wow fadeIn" data-wow-duration="2s">Centralize Candidates, Clients, Job Opening Information</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of Consultants with the use of Search Tool, Short List, Tear Sheet, Draft – Table of Candidates and Client Submission Tool developed for their ease.</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
@@ -368,15 +372,10 @@
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211210.jpg"
-                                alt="">
+                            <img src="images/woman-making-notes.jpg" alt="" />
                         </figure>
-                        <span class="wow fadeIn" data-wow-duration="2s">Enhancing ERP performance by the power of
-                            Cloud</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">ERP has been long regarded as a
-                            mission-critical
-                            system that helps businesses improve all facets of their operations, including product
-                            planning & development.</p>
+                        <span class="wow fadeIn" data-wow-duration="2s">A more intuitive and productive process to replace the existing manual application process</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Account Profiling – A complete view of Enquiries, Students, Teachers, Vendors & Corporate Clients management  Course and Enrolment Management (Language Course, Enrolment & Fee module)</p>
 
                     </div>
                     <a href="javascript:void()" class="get_det_bt"> Get the details <i
