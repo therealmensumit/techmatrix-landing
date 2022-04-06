@@ -181,7 +181,7 @@ $('.cl_form_sb').click(function() {
 
     var bname = $('.bname').val();
     var bemail = $('.bemail').val();
-    var bbanphone = $('.bban-phone').val().split(' ');
+    var bphone = $('.bphone').val().split(' ');
 
     if (bname === "") {
         showerrorpro(".bname", 'Name is required');
@@ -195,11 +195,11 @@ $('.cl_form_sb').click(function() {
     } else {
         showsuccesspro(".bemail");
     }
-    if (bbanphone[1].length < 10) {
-        showerrorpro(".bban-phone", 'Please enter valid phone number');
+    if (bphone[1].length < 10) {
+        showerrorpro(".bphone", 'Please enter valid phone number');
         return false;
     } else {
-        showsuccesspro(".bban-phone");
+        showsuccesspro(".bphone");
     }
     if (resume === "") {
         // showerrorpro(".resume", 'Please Upload your cv');

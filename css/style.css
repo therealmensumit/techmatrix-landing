@@ -715,7 +715,7 @@ nav {
     width: 100%;
 }
 
-.banner .content .main .right form .inp input.ban-phone {
+.banner .content .main .right form .inp input.bphone {
     padding-left: 50px;
 }
 
@@ -1310,11 +1310,11 @@ nav {
 }
 
 .casestudy .casestudy-list ul li figure .log-img img {
-    width: 60px;
+    width: 80px;
 }
 
 .casestudy .casestudy-list ul li figure .log-img img.inling {
-    width: 100px;
+    width: 120px;
 }
 
 .casestudy .casestudy-list ul li img {
@@ -2245,6 +2245,72 @@ nav {
 }
 
 
+/********************THANKS PAGE**********************/
+
+.tclose {
+    width: 100%;
+    font-size: 20px;
+    float: right;
+    background-color: #0e9ed3;
+}
+
+.tclose .thank-close {
+    color: #ffffff;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.thankyou {
+    width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.thankyou h1 {
+    text-transform: uppercase;
+    color: #37c1fd;
+    font-size: 20px;
+}
+
+.thankyou p {
+    border-top: 1px dotted #ccc;
+    margin-top: 25px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.thankyou .para {
+    font-size: 20px;
+}
+
+.thankyou .para2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.thankarea {
+    width: 100%;
+    float: left;
+    background: #0e9ed3;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.thankarea .fa {
+    background: #fff;
+    width: 150px;
+    font-size: 90px;
+    color: #37c1fd;
+    border-radius: 100%;
+    line-height: 150px;
+}
+
+
 /********************footer**********************/
 
 footer {
@@ -2794,6 +2860,13 @@ footer .foot-bottom .foot-cntr .social-media {
     .partner-sec .main .lt h3 {
         font-size: 51px;
         line-height: 54px;
+    }
+    .inp .g-recaptcha {
+        float: unset;
+        margin-left: 12px;
+    }
+    .icos-sec {
+        margin-top: 240px;
     }
     .banner .content {
         width: 100%;

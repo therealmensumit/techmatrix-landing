@@ -3,7 +3,7 @@
         <h2 class="wow slideInRight">Get in touch</h2>
         <h3 class="wow slideInLeft">Let Us Take Your Business to New Heights</h3>
         <div class="form_contact wow slideInDown">
-            <form action="thanks.php" id="hme-frm" method="post">
+            <form action="" id="hme-frm" method="post">
                 <input type="hidden" name="action" value="home_query">
                 <input type="hidden" name="page" value="Home">
                 <h4>Personal details</h4>
@@ -267,7 +267,7 @@
                 //separateDialCode: true,
                 utilsScript: "js/utils.js",
             });
-            var baninput = document.querySelector(".ban-phone");
+            var baninput = document.querySelector(".bphone");
             window.intlTelInput(baninput, {
                 // allowDropdown: false,
                 // autoHideDialCode: false,
