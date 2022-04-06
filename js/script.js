@@ -33,6 +33,26 @@ checkList.getElementsByClassName('anchor')[0].onclick = function(evt) {
         checkList.classList.add('visible');
 }
 
+function ValidateEmail(email) {
+    var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    return expr.test(email);
+};
+
+function showerrorpro(mydiv, erromsg) {
+    $(mydiv).css({ border: '', color: '#222', background: '#fff' });
+    // $("html, body").animate({ scrollTop: $(mydiv).offset().top - 150 }, 500);
+    // $(mydiv).focus();
+    if (erromsg !== '') {
+        $(mydiv).after('<span class="show-error-msg">' + erromsg + '</span>');
+    }
+}
+
+function showsuccesspro(mydiv) {
+    $(mydiv).css({ border: '1px solid #D7D7D7', background: '#e9eaec', color: '#222' });
+    $('.show-error-msg').remove();
+}
+
+
 
 // $('.port-popup').click(function() {
 //     $('.port-popup').fadeOut();
@@ -157,6 +177,85 @@ var swiper = new Swiper(".choosSwiper", {
     }
 });
 
+$('.cl_form_sb').click(function() {
+
+    var bname = $('.bname').val();
+    var bemail = $('.bemail').val();
+    var bbanphone = $('.bban-phone').val().split(' ');
+
+    if (bname === "") {
+        showerrorpro(".bname", 'Name is required');
+        return false;
+    } else {
+        showsuccesspro(".bname");
+    }
+    if (!ValidateEmail(bemail)) {
+        showerrorpro(".bemail", 'Please enter valid email ID');
+        return false;
+    } else {
+        showsuccesspro(".bemail");
+    }
+    if (bbanphone[1].length < 10) {
+        showerrorpro(".bban-phone", 'Please enter valid phone number');
+        return false;
+    } else {
+        showsuccesspro(".bban-phone");
+    }
+    if (resume === "") {
+        // showerrorpro(".resume", 'Please Upload your cv');
+        // return false;
+    } else {
+        showsuccesspro(".resume");
+    }
+    if (response.length == 0) {
+        alert('Invalid Captch Code');
+        return false;
+    }
+    $(this).hide()
+    $('.loader').show('');
+
+});
+
+$('.cl_form_sub').click(function() {
+
+    var name = $('.name').val();
+    var email = $('.email').val();
+    var phone = $('.phone').val().split(' ');
+    var resume = $('.resume').val();
+    var response = grecaptcha.getResponse();
+
+    if (name === "") {
+        showerrorpro(".name", 'Name is required');
+        return false;
+    } else {
+        showsuccesspro(".name");
+    }
+    if (!ValidateEmail(email)) {
+        showerrorpro(".email", 'Please enter valid email ID');
+        return false;
+    } else {
+        showsuccesspro(".email");
+    }
+    if (phone[1].length < 10) {
+        showerrorpro(".phone", 'Please enter valid phone number');
+        return false;
+    } else {
+        showsuccesspro(".phone");
+    }
+    if (resume === "") {
+        // showerrorpro(".resume", 'Please Upload your cv');
+        // return false;
+    } else {
+        showsuccesspro(".resume");
+    }
+    if (response.length == 0) {
+        alert('Invalid Captch Code');
+        return false;
+    }
+    $(this).hide()
+    $('.loader').show('');
+
+});
 
 
 

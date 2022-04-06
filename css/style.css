@@ -701,8 +701,22 @@ nav {
     color: #858585;
 }
 
+.banner .content .main .right form span.show-error-msg {
+    color: red;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
 .banner .content .main .right form .inp {
     margin: 15px 0;
+}
+
+.banner .content .main .right form .inp .iti {
+    width: 100%;
+}
+
+.banner .content .main .right form .inp input.ban-phone {
+    padding-left: 50px;
 }
 
 .banner .content .main .right form .inp input {
@@ -1281,7 +1295,26 @@ nav {
     float: left;
     box-shadow: 0 5px 10px #50505041;
     border-radius: 4px;
-    height: 435px;
+    height: 450px;
+}
+
+.casestudy .casestudy-list ul li figure {
+    position: relative;
+}
+
+.casestudy .casestudy-list ul li figure .log-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.casestudy .casestudy-list ul li figure .log-img img {
+    width: 60px;
+}
+
+.casestudy .casestudy-list ul li figure .log-img img.inling {
+    width: 100px;
 }
 
 .casestudy .casestudy-list ul li img {

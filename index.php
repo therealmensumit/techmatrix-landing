@@ -32,16 +32,16 @@
                                     <span>Talk with a Specialist about getting started with</span>
                                 </div>
                                 <div class="inp">
-                                    <input type="text" name="name" placeholder="Name" />
+                                    <input type="text" name="name" class="bname" placeholder="Name" />
                                 </div>
                                 <div class="inp">
-                                    <input type="email" name="email" placeholder="E-mail" />
+                                    <input type="email" name="email" class="bemail" placeholder="E-mail" />
                                 </div>
                                 <div class="inp">
                                     <input type="text" name="company" placeholder="Company Name" />
                                 </div>
                                 <div class="inp">
-                                    <input type="number" name="phone" placeholder="Phone No." />
+                                    <input type="text" name="phone" value="+91 " class="bban-phone" placeholder="Phone No." />
                                 </div>
                                 <div class="inp">
                                     <input type="text" name="requirements" placeholder="Requirements" />
@@ -51,7 +51,7 @@
                                         and consent to our <a href="javascript:void()">privacy policy</a>.</p>
                                 </div>
                                 <div class="form-butn">
-                                    <button class="btn-top" type="submit">Submit</button>
+                                    <button class="cl_form_sb btn-top" type="button">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -334,7 +334,10 @@
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379210880.jpg" alt="" />
+                            <img src="images/businesswoman.jpg" alt="" />
+                            <div class="log-img">
+                                <img src="images/lg1.png" alt="" />
+                            </div>
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Sales users were able to create multiple quotations and were relieved from manual work of approval process. This has reduced the workload and made them more efficient in managing their time.</p>
@@ -345,7 +348,10 @@
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211020.jpg" alt="" />
+                            <img src="images/businessman.jpg" alt="" />
+                            <div class="log-img">
+                                <img src="images/lg2.png" alt="" />
+                            </div>
                         </figure>
                         <span class="wow fadeIn" data-wow-duration="2s">Centralize valuable patient information on a shared platform accessible by all user departments</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of customer service team by promoting self-service for tour bookings, event registrations by integrating with MAH website.</p>
@@ -355,20 +361,30 @@
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
+                        
                         <figure>
-                            <img src="https://techmatrixconsulting.com/echronpanel/images/img-lib/small/16379211210.jpg" alt="" />
+                            <img src="images/Information.jpg" alt="" />
+                            <div class="log-img">
+                                <img src="images/lg3.png" alt="" />
+                            </div>
                         </figure>
+                        
                         <span class="wow fadeIn" data-wow-duration="2s">Centralize Candidates, Clients, Job Opening Information</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of Consultants with the use of Search Tool, Short List, Tear Sheet, Draft – Table of Candidates and Client Submission Tool developed for their ease.</p>
+                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of Consultants with the use of Search Tool, Short List, Tear Sheet, Draft - Table of Candidates and Client Submission Tool developed for their ease.</p>
 
                     </div>
                     <a href="docs/TMC Case Study - Recruitment.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
+                        
                         <figure>
                             <img src="images/woman-making-notes.jpg" alt="" />
+                            <div class="log-img">
+                                <img class="inling" src="images/lg4.png" alt="" />
+                            </div>
                         </figure>
+                        
                         <span class="wow fadeIn" data-wow-duration="2s">A more intuitive and productive process to replace the existing manual application process</span>
                         <p class="wow fadeIn" data-wow-duration="2s">Account Profiling – A complete view of Enquiries, Students, Teachers, Vendors & Corporate Clients management  Course and Enrolment Management (Language Course, Enrolment & Fee module)</p>
 
