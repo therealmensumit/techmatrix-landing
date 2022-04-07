@@ -678,8 +678,17 @@ nav {
     width: 250px;
 }
 
-.banner .content .main .right form {
-    background-color: #fff;
+.frame {
+    width: 100%;
+    height: 590px;
+}
+
+.inp .g-recaptcha {
+    justify-content: left;
+}
+
+.form-s form {
+    background-color: #ffffff;
     padding: 30px 20px;
     margin: 0 25px;
     border-radius: 4px;
@@ -687,39 +696,39 @@ nav {
     /* z-index: 5; */
 }
 
-.banner .content .main .right form .form-head {
+.form-s form .form-head {
     margin-bottom: 15px;
 }
 
-.banner .content .main .right form h2 {
+.form-s form h2 {
     font-weight: 900;
     font-size: 22px;
     padding-bottom: 5px;
 }
 
-.banner .content .main .right form span {
+.form-s form span {
     color: #858585;
 }
 
-.banner .content .main .right form span.show-error-msg {
+.form-s form span.show-error-msg {
     color: red;
     font-size: 12px;
     padding-left: 10px;
 }
 
-.banner .content .main .right form .inp {
+.form-s form .inp {
     margin: 15px 0;
 }
 
-.banner .content .main .right form .inp .iti {
+.form-s form .inp .iti {
     width: 100%;
 }
 
-.banner .content .main .right form .inp input.bphone {
+.form-s form .inp input.bphone {
     padding-left: 50px;
 }
 
-.banner .content .main .right form .inp input {
+.form-s form .inp input {
     width: 100%;
     padding: 10px;
     background: #f2f2f2;
@@ -727,23 +736,23 @@ nav {
     border-radius: 4px;
 }
 
-.banner .content .main .right form .inp input:focus-visible {
+.form-s form .inp input:focus-visible {
     outline: 1px solid #006ec5;
 }
 
-.banner .content .main .right form .terms p {
+.form-s form .terms p {
     color: #858585;
 }
 
-.banner .content .main .right form .terms p a {
+.form-s form .terms p a {
     color: #20a0df;
 }
 
-.banner .content .main .right form .form-butn {
+.form-s form .form-butn {
     text-align: center;
 }
 
-.banner .content .main .right form button {
+.form-s form button {
     width: 40%;
     margin-top: 10px;
     border-radius: 4px;
@@ -756,11 +765,11 @@ nav {
     overflow: hidden;
 }
 
-.banner .content .main .right form button:hover {
+.form-s form button:hover {
     color: #20a0df;
 }
 
-.banner .content .main .right form button::before {
+.form-s form button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -775,7 +784,7 @@ nav {
     transition-timing-function: ease-out;
 }
 
-.banner .content .main .right form button:hover::before {
+.form-s form button:hover::before {
     transform: scaleY(1);
     transition-timing-function: cubic-bezier(.52, 1.64, .37, .66);
 }

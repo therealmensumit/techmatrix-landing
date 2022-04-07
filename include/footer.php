@@ -3,9 +3,9 @@
         <h2 class="wow slideInRight">Get in touch</h2>
         <h3 class="wow slideInLeft">Let Us Take Your Business to New Heights</h3>
         <div class="form_contact wow slideInDown">
-            <form action="" id="hme-frm" method="post">
+            <form action="thanks.php" id="hme-frm" method="post">
                 <input type="hidden" name="action" value="home_query">
-                <input type="hidden" name="page" value="Home">
+            
                 <h4>Personal details</h4>
                 <div class="form_main">
                     <div class="form_in">
@@ -19,13 +19,13 @@
                     </div>
                     <div class="form_in">
                         <!-- <input type="text" class="name" name="Employees" id="" placeholder="Employees"> -->
-                        <select class="select" name="" id="">
+                        <select class="select" name="employees" id="">
                             <option value="" selected disabled>Employees</option>
-                            <option value="">0-100</option>
-                            <option value="">101-200</option>
-                            <option value="">201-300</option>
-                            <option value="">301-400</option>
-                            <option value="">401-500</option>
+                            <option value="0-100">0-100</option>
+                            <option value="100-500">100-500</option>
+                            <option value="500-1000">500-1000</option>
+                            <option value="1000-1500">1000-1500</option>
+                            <option value="1500+">1500+</option>
                         </select>
                     </div>
                 </div>
@@ -36,15 +36,15 @@
                         <div id="list1" class="dropdown-check-list" tabindex="100">
                             <span class="anchor">Product of Interest</span>
                             <ul class="items">
-                                <li><label for="1"><input id="1" class="interest" type="checkbox" />Sales Cloud</label></li>
-                                <li><label for="2"><input id="2" class="interest" type="checkbox" />Service Cloud</label></li>
-                                <li><label for="3"><input id="3" class="interest" type="checkbox" />Marketing Cloud</label></li>
-                                <li><label for="4"><input id="4" class="interest" type="checkbox" />Pardot</label></li>
-                                <li><label for="5"><input id="5" class="interest" type="checkbox" />Experience Cloud</label></li>
-                                <li><label for="6"><input id="6" class="interest" type="checkbox" />Commerce Cloud</label></li>
-                                <li><label for="7"><input id="7" class="interest" type="checkbox" />CPQ</label></li>
-                                <li><label for="8"><input id="8" class="interest" type="checkbox" />Field Service Lightning</label></li>
-                                <li><label for="9"><input id="9" class="interest" type="checkbox" />Customer 360</label></li>
+                                <li><label for="1"><input id="1" class="interest" name="interest[]" value="Sales Cloud" type="checkbox" />Sales Cloud</label></li>
+                                <li><label for="2"><input id="2" class="interest" name="interest[]" value="Service Cloud" type="checkbox" />Service Cloud</label></li>
+                                <li><label for="3"><input id="3" class="interest" name="interest[]" value="Marketing Cloud" type="checkbox" />Marketing Cloud</label></li>
+                                <li><label for="4"><input id="4" class="interest" name="interest[]" value="Pardot" type="checkbox" />Pardot</label></li>
+                                <li><label for="5"><input id="5" class="interest" name="interest[]" value="Experience Cloud" type="checkbox" />Experience Cloud</label></li>
+                                <li><label for="6"><input id="6" class="interest" name="interest[]" value="Commerce Cloud" type="checkbox" />Commerce Cloud</label></li>
+                                <li><label for="7"><input id="7" class="interest" name="interest[]" value="CPQ" type="checkbox" />CPQ</label></li>
+                                <li><label for="8"><input id="8" class="interest" name="interest[]" value="Field Service Lightning" type="checkbox" />Field Service Lightning</label></li>
+                                <li><label for="9"><input id="9" class="interest" name="interest[]" value="Customer 360" type="checkbox" />Customer 360</label></li>
                             </ul>
                         </div>
                     </div>

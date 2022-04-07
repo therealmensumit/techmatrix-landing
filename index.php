@@ -25,40 +25,7 @@
                         <div class="panda">
                             <img src="images/panda.png" alt="panda" />
                         </div>
-                        <div class="form-s">
-                            <form action="">
-                                <div class="form-head">
-                                    <h2>GET STARTED</h2>
-                                    <span>Talk with a Specialist about getting started with</span>
-                                </div>
-                                <div class="inp">
-                                    <input type="text" name="name" class="bname" placeholder="Name" />
-                                </div>
-                                <div class="inp">
-                                    <input type="email" name="email" class="bemail" placeholder="E-mail" />
-                                </div>
-                                <div class="inp">
-                                    <input type="text" name="company" placeholder="Company Name" />
-                                </div>
-                                <div class="inp">
-                                    <input type="text" name="phone" value="+91 " class="bphone" placeholder="Phone No." />
-                                </div>
-                                <div class="inp">
-                                    <input type="text" name="requirements" placeholder="Requirements" />
-                                </div>
-                                <div class="terms">
-                                    <p>By Clicking below, you agree to our <a href="javascript:void()">Terms of use</a>
-                                        and consent to our <a href="javascript:void()">privacy policy</a>.</p>
-                                </div>
-                                <div class="inp">
-                                    <div class="g-recaptcha" data-sitekey='6LcOk68eAAAAAHaTOUvNdDMUx-YOgFmRFAwmhWQP'></div>
-                                    <script src='https://www.google.com/recaptcha/api.js'></script>
-                                </div>
-                                <div class="form-butn">
-                                    <button class="cl_form_sb btn-top" type="button">Submit</button>
-                                </div>
-                            </form>
-                        </div>
+                        <iframe src="bannerform.php" frameborder="0" class="frame"></iframe>
                     </div>
                 </div>
             </div>

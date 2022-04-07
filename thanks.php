@@ -1,45 +1,22 @@
 <?php
-  include("include/config.php");
-
-
-  if (isset($_POST['g-recaptcha-response'])) {
-
-	
-    //GOOGLE RECAPTCH CODE
-    require_once('include/ReCaptcha/ReCaptcha.php');
-    require_once('include/ReCaptcha/RequestMethod.php');
-    require_once('include/ReCaptcha/RequestParameters.php');
-    require_once('include/ReCaptcha/Response.php');
-    require_once('include/ReCaptcha/RequestMethod/Post.php');
-    require_once('include/ReCaptcha/RequestMethod/Socket.php');
-    require_once('include/ReCaptcha/RequestMethod/SocketPost.php');
-    $gRecaptchaResponse = $_POST['g-recaptcha-response'];
-    $secret = '6LdV9g0fAAAAAF1BbYx8sFqjl5peX89KwTIfDx1u';
-
-    $recaptcha = new \ReCaptcha\ReCaptcha($secret);
-    $resp = $recaptcha->verify($gRecaptchaResponse, $_SERVER['REMOTE_ADDR']);
-    if ($resp->isSuccess()) {
-            
-
-  
-  function send_mail_smtp($message, $to, $subject) {
-      $headers = "From: info@techmatrixconsulting.com" . "\r\n";
-      $headers .= "MIME-Version: 1.0" . "\r\n";
-      $headers .= "X-Priority: 3\r\n";
-      $headers .= "X-Mailer: smail-PHP " . phpversion() . "\r\n";
-      $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
-      $success = mail($to, $subject, $message, $headers);
-      return $success;
-    }
-  
+function send_mail_smtp($message, $to, $subject) {
+  $headers = "From: info@techmatrixconsulting.com" . "\r\n";
+  $headers .= "MIME-Version: 1.0" . "\r\n";
+  $headers .= "X-Priority: 3\r\n";
+  $headers .= "X-Mailer: smail-PHP " . phpversion() . "\r\n";
+  $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+  $success = mail($to, $subject, $message, $headers);
+  return $success;
+}
 
 if($_POST['action']=="contact_form"){
 
-   $name        =   $_POST["name"];
-   $email       =  $_POST["email"];
-   $phone       =   $_POST["phone"];
-   $message		=   $_POST["message"];
-   
+  $name        =   $_POST["name"];
+  $email       =  $_POST["email"];
+  $company       =  $_POST["company"];
+  $phone       =   $_POST["phone"];
+  $requirements		=   $_POST["requirements"];
+  
   
   ############# Assessment Email #################
   $mess= "<table width='96%' cellspacing='0' cellpadding='2' border='0'><tr><td>
@@ -47,22 +24,53 @@ if($_POST['action']=="contact_form"){
   <tr><td>You have received an enquiry. Details of which are as follows: <br /><br />";
   $mess.= "Name : ".$name."<br /><br />";
   $mess.= "Email : ".$email."<br /><br />";
+  $mess.= "Company : ".$company."<br /><br />";
   $mess.= "Phone : ".$phone."<br /><br />";
-  $mess.= "Message : ".$message."<br /><br />";
+  $mess.= "Requirements : ".$requirements."<br /><br />";
   
- 
+  
   $mess.= "Thanks<br>Team<br>techmatrixconsulting.com </strong></td></tr>
   </table>";
+  
+  send_mail_smtp($mess, 'echrontech@gmail.com', 'Techmatrix enquiry');
+  }
+
+
+  if (isset($_POST['g-recaptcha-response'])) {
+
+	
+    //GOOGLE RECAPTCH CODE
+    require_once('../include/ReCaptcha/ReCaptcha.php');
+    require_once('../include/ReCaptcha/RequestMethod.php');
+    require_once('../include/ReCaptcha/RequestParameters.php');
+    require_once('../include/ReCaptcha/Response.php');
+    require_once('../include/ReCaptcha/RequestMethod/Post.php');
+    require_once('../include/ReCaptcha/RequestMethod/Socket.php');
+    require_once('../include/ReCaptcha/RequestMethod/SocketPost.php');
+    $gRecaptchaResponse = $_POST['g-recaptcha-response'];
+    $secret = '6LdutFIfAAAAAEZa5btwMLxio5BpkBvOstkw49Nu';
     
-    send_mail_smtp($mess, 'echrontech@gmail.com', 'Techmatrix enquiry');
-}
-elseif($_POST['action']=="contact_form_p"){
+    $recaptcha = new \ReCaptcha\ReCaptcha($secret);
+    $resp = $recaptcha->verify($gRecaptchaResponse, $_SERVER['REMOTE_ADDR']);
+    if ($resp->isSuccess()) {
+            
+
+  
+  
+  
+if($_POST['action']=="home_query"){
 
   $name        =   $_POST["name"];
-  $lname        =   $_POST["lname"];
   $email       =  $_POST["email"];
   $phone       =   $_POST["phone"];
+  $employees		=   $_POST["employees"];
+  $interest		=   $_POST["interest"];
   $message		=   $_POST["message"];
+	
+
+	foreach ($interest as $arr){ 
+		$interestVal .= "<li>".$arr."</li>";
+}
   
  
  ############# Assessment Email #################
@@ -70,16 +78,17 @@ elseif($_POST['action']=="contact_form_p"){
  <br/><br/></td></tr>
  <tr><td>You have received an enquiry. Details of which are as follows: <br /><br />";
  $mess.= "Name : ".$name."<br /><br />";
- $mess.= "Last Name : ".$lname."<br /><br />";
  $mess.= "Email : ".$email."<br /><br />";
  $mess.= "Phone : ".$phone."<br /><br />";
+ $mess.= "Employees : ".$employees."<br /><br />";
+ $mess.= "Message : ".$interestVal."<br /><br />";
  $mess.= "Message : ".$message."<br /><br />";
  
 
  $mess.= "Thanks<br>Team<br>techmatrixconsulting.com </strong></td></tr>
  </table>";
    
-   send_mail_smtp($mess, 'techmatrixconsulting@gmail.com', 'Techmatrix enquiry');
+   send_mail_smtp($mess, 'echrontech@gmail.com', 'Techmatrix enquiry');
 }
 }
 else {
@@ -88,6 +97,9 @@ else {
     die($output);
     }
 }
+
+
+
 ?>
 
 <!DOCTYPE html>

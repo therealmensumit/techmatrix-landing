@@ -182,7 +182,7 @@ $('.cl_form_sb').click(function() {
     var bname = $('.bname').val();
     var bemail = $('.bemail').val();
     var bphone = $('.bphone').val().split(' ');
-
+    var response = grecaptcha.getResponse();
     if (bname === "") {
         showerrorpro(".bname", 'Name is required');
         return false;
@@ -248,10 +248,7 @@ $('.cl_form_sub').click(function() {
     } else {
         showsuccesspro(".resume");
     }
-    if (response.length == 0) {
-        alert('Invalid Captch Code');
-        return false;
-    }
+
     $(this).hide()
     $('.loader').show('');
 
