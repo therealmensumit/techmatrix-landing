@@ -25,7 +25,44 @@
                         <div class="panda">
                             <img src="images/panda.png" alt="panda" />
                         </div>
-                        <iframe src="bannerform.php" frameborder="0" class="frame"></iframe>
+                        <!-- <iframe src="bannerform.php" frameborder="0" class="frame"></iframe> -->
+                        <div class="form-s">
+                            <form action="thanks.php" method="post">
+                                <input type="hidden" name="action" value="contact_form">
+                                <div class="form-head">
+                                    <h2>GET STARTED</h2>
+                                    <span>Talk with a Specialist about getting started with</span>
+                                </div>
+                                <div class="inp">
+                                    <input type="text" name="name" class="bname" placeholder="Name" />
+                                </div>
+                                <div class="inp">
+                                    <input type="email" name="email" class="bemail" placeholder="E-mail" />
+                                </div>
+                                <div class="inp">
+                                    <input type="text" name="company" placeholder="Company Name" />
+                                </div>
+                                <div class="inp">
+                                    <input type="text" name="phone" value="+91 " class="bphone"
+                                        placeholder="Phone No." />
+                                </div>
+                                <div class="inp">
+                                    <input type="text" name="requirements" placeholder="Requirements" />
+                                </div>
+                                <div class="terms">
+                                    <p>By Clicking below, you agree to our <a href="javascript:void()">Terms of use</a>
+                                        and consent to our <a href="javascript:void()">privacy policy</a>.</p>
+                                </div>
+                                <div class="inp">
+                                    <div class="g-recaptcha" data-sitekey='6LdutFIfAAAAAJSkl0fbJwCMOFu_1llrWZeK7k79'>
+                                    </div>
+                                    <script src='https://www.google.com/recaptcha/api.js'></script>
+                                </div>
+                                <div class="form-butn">
+                                    <button class="cl_form_sb btn-top" type="submit">Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -310,11 +347,15 @@
                                 <img src="images/lg1.png" alt="" />
                             </div>
                         </figure>
-                        <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting more leads</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Sales users were able to create multiple quotations and were relieved from manual work of approval process. This has reduced the workload and made them more efficient in managing their time.</p>
+                        <span class="wow fadeIn" data-wow-duration="2s">Managing Data made easier & focus on getting
+                            more leads</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Sales users were able to create multiple quotations
+                            and were relieved from manual work of approval process. This has reduced the workload and
+                            made them more efficient in managing their time.</p>
 
                     </div>
-                    <a href="docs/ATD_Customer Success Story.pptx.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/ATD_Customer Success Story.pptx.pdf" target="_blank" class="get_det_bt"> Get the
+                        details <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
@@ -324,43 +365,55 @@
                                 <img src="images/lg2.png" alt="" />
                             </div>
                         </figure>
-                        <span class="wow fadeIn" data-wow-duration="2s">Centralize valuable patient information on a shared platform accessible by all user departments</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of customer service team by promoting self-service for tour bookings, event registrations by integrating with MAH website.</p>
+                        <span class="wow fadeIn" data-wow-duration="2s">Centralize valuable patient information on a
+                            shared platform accessible by all user departments</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of customer
+                            service team by promoting self-service for tour bookings, event registrations by integrating
+                            with MAH website.</p>
 
                     </div>
-                    <a href="docs/TMC Case Study_Healthcare.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/TMC Case Study_Healthcare.pdf" target="_blank" class="get_det_bt"> Get the details <i
+                            class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
-                        
+
                         <figure>
                             <img src="images/Information.jpg" alt="" />
                             <div class="log-img">
                                 <img src="images/lg3.png" alt="" />
                             </div>
                         </figure>
-                        
-                        <span class="wow fadeIn" data-wow-duration="2s">Centralize Candidates, Clients, Job Opening Information</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of Consultants with the use of Search Tool, Short List, Tear Sheet, Draft - Table of Candidates and Client Submission Tool developed for their ease.</p>
+
+                        <span class="wow fadeIn" data-wow-duration="2s">Centralize Candidates, Clients, Job Opening
+                            Information</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Increased efficiency and optimization of
+                            Consultants with the use of Search Tool, Short List, Tear Sheet, Draft - Table of Candidates
+                            and Client Submission Tool developed for their ease.</p>
 
                     </div>
-                    <a href="docs/TMC Case Study - Recruitment.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/TMC Case Study - Recruitment.pdf" target="_blank" class="get_det_bt"> Get the details
+                        <i class="fa fa-long-arrow-right"></i></a>
                 </li>
                 <li class="wow slideInUp" data-wow-duration="0.5">
                     <div class="casestudy-bdr">
-                        
+
                         <figure>
                             <img src="images/woman-making-notes.jpg" alt="" />
                             <div class="log-img">
                                 <img class="inling" src="images/lg4.png" alt="" />
                             </div>
                         </figure>
-                        
-                        <span class="wow fadeIn" data-wow-duration="2s">A more intuitive and productive process to replace the existing manual application process</span>
-                        <p class="wow fadeIn" data-wow-duration="2s">Account Profiling – A complete view of Enquiries, Students, Teachers, Vendors & Corporate Clients management  Course and Enrolment Management (Language Course, Enrolment & Fee module)</p>
+
+                        <span class="wow fadeIn" data-wow-duration="2s">A more intuitive and productive process to
+                            replace the existing manual application process</span>
+                        <p class="wow fadeIn" data-wow-duration="2s">Account Profiling – A complete view of Enquiries,
+                            Students, Teachers, Vendors & Corporate Clients management Course and Enrolment Management
+                            (Language Course, Enrolment & Fee module)</p>
 
                     </div>
-                    <a href="docs/inlingua.pptx.pdf" target="_blank" class="get_det_bt"> Get the details <i class="fa fa-long-arrow-right"></i></a>
+                    <a href="docs/inlingua.pptx.pdf" target="_blank" class="get_det_bt"> Get the details <i
+                            class="fa fa-long-arrow-right"></i></a>
                 </li>
             </ul>
         </div>

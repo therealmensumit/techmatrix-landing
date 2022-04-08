@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     
-<?php include('include/head.php') ?>
+<?php #include('include/head.php') ?>
 
 <head>
     <meta charset="UTF-8">
@@ -55,7 +55,7 @@
             window.intlTelInput(baninput, {
                 // allowDropdown: false,
                 // autoHideDialCode: false,
-                autoPlaceholder: "off",
+                autoPlaceholder: "on",
                 // dropdownContainer: document.body,
                 // excludeCountries: ["us"],
                 //formatOnDisplay: false,
@@ -78,4 +78,4 @@
     </script>
 </body>
 
-</html>
+</html> -->

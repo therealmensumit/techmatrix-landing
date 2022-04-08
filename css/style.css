@@ -712,12 +712,16 @@ nav {
 
 .form-s form span.show-error-msg {
     color: red;
-    font-size: 12px;
+    font-size: 11px;
     padding-left: 10px;
+    position: absolute;
+    bottom: -12;
+    left: 0;
 }
 
 .form-s form .inp {
     margin: 15px 0;
+    position: relative;
 }
 
 .form-s form .inp .iti {
