@@ -54,8 +54,7 @@
                     </div>
 
                     <div class="form_in left">
-                        <div class="g-recaptcha" data-sitekey='6LcOk68eAAAAAHaTOUvNdDMUx-YOgFmRFAwmhWQP'></div>
-                        <script src='https://www.google.com/recaptcha/api.js'></script>
+                        <div class="g-recaptcha" data-sitekey='6LdutFIfAAAAAJSkl0fbJwCMOFu_1llrWZeK7k79'></div>
                         <span class="butn-com">
                             <button class="cl_form_sub snd" type="submit">Send Inquiry</button>
                             <div class="loader"><img src="https://techmatrixconsulting.com/images/fancybox_loading.gif"
@@ -233,6 +232,7 @@
   </div> -->
 
 <script src="./js/jquery.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/swiper-bundle.min.js"></script>
 <script src="./js/waypoints.min.js"></script>
