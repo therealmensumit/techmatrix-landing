@@ -1,6 +1,6 @@
 <?php
 $pathlocal=$_SERVER['HTTP_HOST'];
-if ($pathlocal == "localhost" || "192.168.1.45") {
+if ($pathlocal == "localhost") {
   define(ECHRONURL,"http://".$pathlocal."/github/techmatrix-landing");
 }
 else {
